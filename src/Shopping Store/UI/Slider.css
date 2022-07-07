@@ -1,0 +1,67 @@
+.carousel-inner,
+.slide,
+.carousel-inner img {
+    height: 600px!important;
+}
+.favourite-list{
+    width: 100%;
+    top: 0; 
+    height: 100vh;
+    background: #fff;
+    z-index: 111;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    transition: all 0.3s ease-out;
+}
+.favourite-list h2{
+
+}
+ 
+.favourite-card{
+    width: 400px;
+    height: 200px;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 20px 5px 20px 5px;
+    display: flex;
+}
+
+.card-image,
+.card-image img {
+    height: 100px;
+}
+.text{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn-qnt{
+    display: flex;
+    height: 45px;
+    align-items: flex-end;
+}
+
+.quantity{
+    border: 0;
+    border-bottom:  2px solid  ;
+    outline: none;
+    width: 100px;
+    overflow: hidden;
+    
+}
+input [type='hidden'] {
+    -moz-appearance:textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.quantity::-webkit-scrollbar{
+    visibility: hidden;
+    opacity: 0;
+}
